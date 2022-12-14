@@ -1,2 +1,11 @@
 
 /* Your CSS Code here. */
+.holder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.holder *{
+    margin: 0px 5px;
+}
